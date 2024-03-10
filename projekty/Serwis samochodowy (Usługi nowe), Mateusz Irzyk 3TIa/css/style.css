@@ -1,0 +1,696 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(172, 171, 185, 0.979);
+    color: white;
+    line-height: 1.6;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*scroll bar*/
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0,30);
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #d9d9d9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #737373;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+/*Header*/ 
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 0 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.naw ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.naw ul li {
+    list-style: none;
+}
+
+.naw ul li a {
+    color: white;
+    padding: 0 20px;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.naw ul li a:hover {
+    color: rgb(82, 85, 85);
+    transition: all .4s ease-out;
+}
+
+.Brand {
+    font-size: 1.8em;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.brand-logo {
+    height: 80px;
+    width: 100%;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+}
+
+/*Sekcje*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+section h1{
+    font-size: 40px;
+}
+
+section p{
+    font-size: 20px;
+}
+
+section#aboutus {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0 0 0 / 50%)), url(../img/backgroundstrony/natl.jpg) no-repeat center center/ cover;
+    height: 100vh;
+}
+
+
+section#service {
+    background: linear-gradient(rgb(64 45 45 / 34%), rgb(28 26 26 / 58%)), url(../img/backgroundstrony/11.jpg) no-repeat center center/ cover;
+    height: 75vh;
+}
+
+section#gallery {
+  background: linear-gradient(rgba(16 16 16 / 50%), rgba(0, 0, 0, 0.6)), url(../img/backgroundstrony/2.jpg) no-repeat center center/ cover;
+  height: 125vh;
+}
+
+section#salon {
+    background: linear-gradient(rgb(36 32 32 / 60%), rgba(0, 0, 0, 0.6)), url(../img/backgroundstrony/natl3.jpg) no-repeat center center/ cover;
+    max-height: 100vh;
+}
+
+ .aboutmetext .contacttext {
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 21px;
+}
+
+/*baner*/
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.banner-content {
+    position: relative;
+    z-index: 0;
+    max-width: 400px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 2.6em;
+    text-transform: uppercase;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0.3em 1em #000;
+    width: 580px;
+    height: 70px;
+    border-radius: 15px;
+}
+
+.banner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border: none;
+}
+
+.hometext {
+    padding-top: 60vh;
+    text-align: center;
+}
+
+.banner .hometext button {
+    position: relative;
+    z-index: 0;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    display: inherit;
+    align-items: center;
+}
+  
+button {
+    width: 340px;
+    height: 75px;
+    padding: 9px 25px;
+    background-color: rgb(21, 26, 27);
+    box-shadow: 0 0.3em 1em #000;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+       
+  
+button:hover {
+    background-color: rgb(52, 155, 180);
+}
+
+.banner .hometext h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/*ONAS*/
+
+
+section#abotus {
+    width: 100%;
+}
+
+#tresc {
+    margin-left: 10px;
+    margin-right: 100px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-between;
+    float: right;
+    gap: 100px;
+    padding-top: 0;
+}
+
+.left-side {
+    float: left;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    padding: 15px;
+    width: 810px;
+    height: 760px;
+    background-color: rgba(0, 0, 0, 0.85);
+    box-shadow: 0 0.3em 1em #000;
+    border-radius: 10px;
+    display: flex;
+    text-align: justify;
+}
+
+.teskte {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 5px;
+    text-align: justify;
+}
+
+.Onas-title {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 19pt;
+    text-decoration: solid;
+    padding-bottom: 5px;
+}
+
+.Onas-about {
+    font-size: 16pt;
+    text-align: left;
+    line-height: 1.151;
+    text-align: justify;
+}
+
+.right-class {
+    display: flex;
+    float: right;
+    padding-top: 610px;
+}
+
+.btn2 {
+    width: 340px;
+    height: 70px;
+    padding: 9px 25px;
+    background-color: rgb(26, 29, 34);
+    box-shadow: 0 0.3em 1em #000;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease-out .1s;
+}
+  
+.btn2:hover {
+    background-color: rgba(187, 4, 4, 0.671);
+}
+
+.btn2 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    text-transform: none;
+    color: #fff;
+}
+
+
+/*Service*/
+
+section#service {
+    font-family: "Urbanist", sans-serif;
+   font-size: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-height: 100vh;
+   padding: 2rem 0;
+}
+
+.service-content {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0.3em 1em #000;
+    width: 600px;
+    height: 80px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 auto;
+    transition: all 0.5s ease-out .1s;
+}
+
+.service-content:hover {
+    background: /*#6d0900*/ #21618C ;
+}
+
+.service-t {
+    font-size: 20pt;
+}
+
+.service-text {
+    padding-bottom: 100px;
+}
+
+
+.img-box img {
+    display: block;
+   width: 100%;
+   height: 26rem;
+   object-fit: cover;
+   cursor: pointer;
+}
+  
+.uslugi-grid {
+    display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   justify-content: center;
+   grid-gap: 2rem;
+   text-align: center;
+   width: 95%;
+   margin: 0 auto;
+}
+  
+.uslugi {
+    display: block;
+   overflow: hidden;
+   border-radius: 0.6rem;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+   transition: 0.2s;
+   position: relative;
+   border: 1px solid;
+   border-color: black;
+}
+  
+  
+.details {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    right: 20px;
+    bottom: 40px;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+    transform: scaleY(0);
+    transition: transform 0.5s;
+}
+  
+.uslugi .img-box:hover .details {
+    transform: scaleY(1);
+}
+  
+.details .table-img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+  
+.coto {
+    font-size: 18pt;
+    color: rgb(194, 238, 255);
+    margin: 20px auto;
+}
+  
+.wyjasnienie {
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 5px;
+    color: white;
+}
+  
+.condent {
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  
+.details .table-img .condent {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+  
+.details .condent .wyjasnienie {
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+/*gallery*/
+
+.gallery-text {
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.gelerry-content {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0.3em 1em #000;
+    width: 600px;
+    height: 80px;
+    border-radius: 15px;
+    font-size: 20pt;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contanerr {
+    font-family: "Urbanist", sans-serif;
+   font-size: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-height: 125vh;
+   padding: 2rem 0;
+}
+
+.jmg-box img {
+    display: block;
+   width: 100%;
+   height: 26rem;
+   object-fit: cover;
+   cursor: pointer;
+}
+
+.galeria-grid {
+    display: grid;
+   grid-template-columns: repeat(3, 2fr);
+   justify-content: center;
+   grid-gap: 2rem;
+   text-align: center;
+   width: 95%;
+   margin: auto;
+}
+
+.galeria {
+    display: block;
+   overflow: hidden;
+   border-radius: 0.6rem;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+   transition: 0.2s;
+   position: relative;
+}
+
+.galeria-content {
+    position: absolute;
+   background-color: rgb(0 0 0 / 55%);
+   color: #fff;
+   bottom: 0;
+   width: 100%;
+   height: 10%;
+   padding: 1.6rem 0;
+   overflow: hidden;
+   transition: 0.5s;
+}
+
+.galeria-content h1 {
+    font-size: 2rem;
+   font-weight: 600;
+   text-transform: capitalize;
+}
+
+
+.galeria-content p {
+    font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5rem;
+   padding: 1.2rem;
+}
+/*
+.galeria-content:hover {
+    height: 40%;
+    transition: 0.5s;
+    background-color: rgb(0 0 0 / 80%);
+    color: #f2f2f2;
+
+}
+*/
+
+/*Salon*/
+
+.salontext {
+    padding-top: 65px;
+}
+
+.sallon {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0.3em 1em #000;
+    width: 600px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 20pt;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sllider {
+    width: 1400px;
+    height: 700px;
+    background: url(../img/salon/zdj1.jpg);
+    background-size: cover;
+    background-position: center; 
+    border: 1px solid #060606;
+    border-radius: 5px;
+    margin: 40px auto;
+    animation: slider 30s ease infinite;
+    position: relative;
+}
+
+@keyframes slider{
+    75%{
+    background: url(../img/salon/zdj2.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+    50%{
+    background: url(../img/salon/zdj3.jpg);
+    background-size: cover;
+    background-position: center;  
+    }
+    75%{
+    background: url(../img/salon/zdj6.jpg);
+    background-size: cover;
+    background-position: center;  
+    }
+    100%{
+    background: url(../img/salon/zdj7.jpg); 
+    background-size: cover;
+    background-position: center; 
+    }
+}
+
+/*footer*/
+
+.footer-conatiner {
+    background: linear-gradient(rgba(49, 49, 49, 0.65), rgba(0, 0, 0, 0.65)), url(../img/backgroundstrony/11111.jpg) no-repeat center center/ cover;
+    padding: 4rem 0 2rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    width: 80%;
+    height: 35vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: left;
+    overflow: overlay;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-left: 2rem;
+    font-size: 13pt;
+}
+
+.footer-items h2 {
+    margin-bottom: 2rem;
+}
+
+.footer-items a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    width: fit-content;
+    font-size: 15pt;
+}
+
+.footer-items p {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    width: fit-content;
+    font-size: 15pt;
+}
+
+.footer-items a:hover {
+    color: rgb(102, 102, 97);
+    transition: .3s ease-out;
+}
+
+.footer-mapp h2 {
+    margin-bottom: 1rem;
+}
+
+/*zostawione na wszelki wypadek, gdybym chciał coś pozmieniać, kiedy ta strona będzie rozwijana*/
+
+/*#email-footer {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+#email-footer::placeholder {
+    color: rgb(160, 160, 160);
+} 
+
+#footer-email-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgb(226, 226, 58);
+    outline: none;
+    border: none;
+    color: black;
+    font-size: 1rem;
+
+}
+
+#footer-email-btn:hover {
+    cursor: pointer;
+    background-color: rgb(58, 131, 240);
+    transition: all .4s ease-out;
+}*/
+
+
+  

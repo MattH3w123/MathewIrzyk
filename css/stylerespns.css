@@ -1,0 +1,1250 @@
+@media (max-width: 1720px) {
+
+    .container header {
+        padding: 0px 150px;
+    }
+
+    .container main section#projects .projects-place {
+        width: 90%;
+    }
+
+    .container main section#projects .projects-place .projec-cont {
+        grid-template-columns: auto auto auto;
+        width: 99%;
+    }
+    
+    
+    .container main section#projects .projects-place .projec-cont .project-card {
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 1600px) {
+
+    .container header {
+        padding: 0px 110px;
+    }
+
+}
+
+@media (max-width: 1400px) {
+
+    .container header {
+        padding: 0px 90px;
+    }
+
+    .container main section#projects {
+        height: auto;
+        padding: 50px 0px;
+    }
+
+    .container main section#projects .projects-place {
+        width: 90%;
+        height: auto;
+    }
+
+    .container main section#projects .projects-place .projec-cont {
+        grid-template-columns: auto auto;
+        width: auto;
+        padding: 0px 20px;
+        height: 600px;
+    }
+    
+    
+    .container main section#projects .projects-place .projec-cont .project-card {
+        margin: auto;
+    }
+
+    .container main section#contact {
+        height: auto;
+    }
+
+    .container main section#contact .contact-place {
+        gap: 20px;
+    }
+
+    .container main section#contact .contact-place .title-cont {
+        padding: 15px 10px;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p {
+        flex-direction: column;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .contact-text {
+        width: 75%;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .cont-content {
+        width: 76%;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .cont-content .contact-in {
+        width: 75%;
+    }
+
+}
+
+@media (max-width: 1020px) {
+
+    .container header {
+        padding: 0px;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .container main section#baner .baner-place {
+        width: 90%;
+    }
+
+    .container main section#baner .baner-place .baner-content h2 {
+        width: 100%;
+    }
+
+    .container main section#opis {
+        min-height: 100vh;
+    }
+
+    .container main section#opis .opis-place {
+        gap: 20px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont {
+        width: 800px;
+        height: 530px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op {
+        height: auto;
+        width: 800px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box {
+        flex-direction: column;
+        height: 450px;
+        width: 800px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .img-con {
+        display: none;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .text-to-opis {
+        width: 90%;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .text-to-opis p {
+        padding: 10px 0px;
+    }
+
+    .container main section#umiejent .skill-place .skills-main-cont {
+        grid-template-columns: auto auto;
+    }
+
+    .container main section#projects {
+        height: auto;
+        padding: 50px 0px;
+    }
+
+    .container main section#projects .projects-place {
+        width: 90%;
+        height: auto;
+    }
+
+    .container main section#projects .projects-place .projec-cont {
+        grid-template-columns: auto auto;
+        width: auto;
+        padding: 0px 20px;
+        height: 600px;
+    }
+    
+    
+    .container main section#projects .projects-place .projec-cont .project-card {
+        margin: auto;
+    }
+
+    .container main section#contact {
+        height: auto;
+    }
+
+    .container main section#contact .contact-place {
+        gap: 20px;
+    }
+
+    .container main section#contact .contact-place .title-cont {
+        padding: 15px 10px;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p {
+        flex-direction: column;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .contact-text {
+        width: 90%;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .cont-content {
+        width: 90%;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .cont-content .contact-in {
+        width: 85%;
+    }
+
+    .container footer .navigation-row {
+        width: 60%;
+    }
+
+    .container footer .copyright hr {
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 850px) {
+
+    .container header {
+        padding: 0px;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .container main section#baner .baner-place {
+        width: 99%;
+    }
+
+    .container main section#baner .baner-place .baner-content h2 {
+        width: 100%;
+    }
+
+    .container main section#opis {
+        min-height: 100vh;
+    }
+
+    .container main section#opis .opis-place {
+        gap: 20px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont {
+        width: 600px;
+        height: 530px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op {
+        height: auto;
+        width: 600px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .text-navbar .text-navbar ul li {
+        padding: 3px 17px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box {
+        flex-direction: column;
+        height: auto;
+        width: 600px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .img-con {
+        display: none;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .text-to-opis {
+        width: 90%;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .text-to-opis p {
+        padding: 10px 0px;
+    }
+
+    .container main section#umiejent {
+        height: auto;
+    }
+
+    .container main section#umiejent .skill-place {
+        gap: 30px;
+    }
+
+    .container main section#umiejent .skill-place .title-cont {
+        padding: 30px 10px 0px 10px;
+    }
+
+    .container main section#umiejent .skill-place .skills-main-cont {
+        grid-template-columns: auto;
+        grid-row-gap: 40px;
+    }
+
+    .container main section#projects {
+        height: auto;
+        padding: 50px 0px;
+    }
+
+    .container main section#projects .projects-place {
+        width: 90%;
+        height: auto;
+    }
+
+    .container main section#projects .projects-place .projec-cont {
+        grid-template-columns: auto;
+        width: auto;
+        padding: 0px 40px;
+        height: 600px;
+    }
+    
+    
+    .container main section#projects .projects-place .projec-cont .project-card {
+        margin: auto;
+    }
+
+    .container main section#contact {
+        height: auto;
+    }
+
+    .container main section#contact .contact-place {
+        gap: 20px;
+        width: 85%;
+    }
+
+    .container main section#contact .contact-place .title-cont {
+        padding: 15px 10px;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p {
+        flex-direction: column;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .contact-text {
+        width: 95%;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .cont-content {
+        width: 90%;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .cont-content .contact-in {
+        width: 90%;
+    }
+
+    .container footer .navigation-row {
+        width: 70%;
+    }
+
+    .container footer .copyright hr {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .container header {
+        padding: 0px;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .container main section#baner .baner-place {
+        width: 99%;
+    }
+
+    .container main section#baner .baner-place .baner-content h1 {
+        font-size: 29pt;
+    }
+
+    .container main section#baner .baner-place .baner-content h2 {
+        width: 100%;
+        font-size: 24pt;
+    }
+
+    .container main section#opis {
+        min-height: 100vh;
+    }
+
+    .container main section#opis .opis-place {
+        gap: 20px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont {
+        width: 600px;
+        height: 530px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op {
+        height: auto;
+        width: 600px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .text-navbar .text-navbar ul li {
+        padding: 3px 17px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box {
+        flex-direction: column;
+        height: auto;
+        width: 600px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .img-con {
+        display: none;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .text-to-opis {
+        width: 90%;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .text-to-opis p {
+        padding: 10px 0px;
+    }
+
+    .container main section#umiejent {
+        height: auto;
+    }
+
+    .container main section#umiejent .skill-place {
+        gap: 30px;
+    }
+
+    .container main section#umiejent .skill-place .title-cont {
+        padding: 30px 10px 0px 10px;
+    }
+
+    .container main section#umiejent .skill-place .skills-main-cont {
+        grid-template-columns: auto;
+        grid-row-gap: 40px;
+    }
+
+    .container main section#projects {
+        height: auto;
+        padding: 50px 0px;
+    }
+
+    .container main section#projects .projects-place {
+        width: 90%;
+        height: auto;
+    }
+
+    .container main section#projects .projects-place .projec-cont {
+        grid-template-columns: auto;
+        width: auto;
+        padding: 0px 40px;
+        height: 600px;
+    }
+    
+    
+    .container main section#projects .projects-place .projec-cont .project-card {
+        margin: auto;
+    }
+
+    .container main section#contact {
+        height: auto;
+    }
+
+    .container main section#contact .contact-place {
+        gap: 20px;
+        width: 85%;
+    }
+
+    .container main section#contact .contact-place .title-cont {
+        padding: 15px 10px;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p {
+        flex-direction: column;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .contact-text {
+        width: 95%;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .cont-content {
+        width: 90%;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .cont-content .contact-in {
+        width: 98%;
+    }
+
+    .container footer .navigation-row {
+        width: 70%;
+    }
+
+    .container footer .navigation-row .navigation-f ul li a {
+        font-size: 16pt;
+    }
+
+    .container footer .navigation-row .socials a i {
+        font-size: 23pt;
+    }
+
+    .container footer .copyright hr {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 630px) {
+
+    .container header {
+        padding: 0px;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .container header .logo-me a img {
+        display: none;
+    }
+
+    .container header nav ul li a {
+        padding: 0px 10px;
+    }
+
+    .container main section#baner .baner-place {
+        width: 99%;
+    }
+
+    .container main section#baner .baner-place .baner-content {
+        justify-content: flex-start;
+    }
+
+    .container main section#baner .baner-place .baner-content h1 {
+        font-size: 26pt;
+    }
+
+    .container main section#baner .baner-place .baner-content h1 .sm-wd {
+        font-size: 26pt;
+    }
+
+    .container main section#baner .baner-place .baner-content h1 .cl-wd  {
+        font-size: 25pt;
+    }
+
+    .container main section#baner .baner-place .baner-content h2 {
+        width: 100%;
+        font-size: 21pt;
+    }
+
+    .container main section#opis {
+        height: auto;
+    }
+
+    .container main section#opis .opis-place {
+        gap: 20px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont {
+        width: auto;
+        height: auto;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op {
+        height: auto;
+        width: 470px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .text-navbar .text-navbar ul li {
+        padding: 3px 17px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+        width: 470px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .img-con {
+        display: none;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .text-to-opis {
+        width: 100%;
+        height: auto;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .text-to-opis p {
+        padding: 10px 0px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .text-navbar ul li {
+        padding: 0px 10px;
+    }
+
+    .container main section#umiejent {
+        height: auto;
+    }
+
+    .container main section#umiejent .skill-place {
+        gap: 30px;
+    }
+
+    .container main section#umiejent .skill-place .title-cont {
+        padding: 30px 10px 0px 10px;
+    }
+
+    .container main section#umiejent .skill-place .skills-main-cont {
+        grid-template-columns: auto;
+        grid-row-gap: 40px;
+    }
+
+    .container main section#projects {
+        height: auto;
+        padding: 50px 0px;
+    }
+
+    .container main section#projects .projects-place {
+        width: 90%;
+        height: auto;
+    }
+
+    .container main section#projects .projects-place .projec-cont {
+        grid-template-columns: auto;
+        width: auto;
+        padding: 0px 40px;
+        height: 600px;
+    }
+    
+    
+    .container main section#projects .projects-place .projec-cont .project-card {
+        margin: auto;
+    }
+
+    .container main section#contact {
+        height: auto;
+    }
+
+    .container main section#contact .contact-place {
+        gap: 20px;
+        width: 85%;
+    }
+
+    .container main section#contact .contact-place .title-cont {
+        padding: 15px 10px;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p {
+        flex-direction: column;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .contact-text {
+        width: 95%;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .contact-text p {
+        font-size: 15pt;
+     }
+
+    .container main section#contact .contact-place .contact-main-op-p .cont-content {
+        width: 90%;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .cont-content .contact-in {
+        width: 98%;
+    }
+
+    .container footer .navigation-row {
+        width: 70%;
+    }
+
+    .container footer .navigation-row .navigation-f ul li a {
+        font-size: 16pt;
+    }
+
+    .container footer .navigation-row .socials a i {
+        font-size: 23pt;
+    }
+
+    .container footer .copyright hr {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 490px) {
+
+    .container header {
+        padding: 0px;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .container header .logo-me a img {
+        display: none;
+    }
+
+    .container header nav ul li a {
+        padding: 0px 10px;
+        font-size: 13pt;
+    }
+
+    .container header nav ul li:first-child {
+        display: none;
+    }
+
+    .container main section#baner .baner-place {
+        width: 99%;
+    }
+
+    .container main section#baner .baner-place .baner-content {
+        justify-content: flex-start;
+    }
+
+    .container main section#baner .baner-place .baner-content h1 {
+        font-size: 26pt;
+    }
+
+    .container main section#baner .baner-place .baner-content h1 .sm-wd {
+        font-size: 26pt;
+    }
+
+    .container main section#baner .baner-place .baner-content h1 .cl-wd  {
+        font-size: 25pt;
+    }
+
+    .container main section#baner .baner-place .baner-content h2 {
+        width: 100%;
+        font-size: 21pt;
+    }
+
+    .container main section#baner .baner-place .baner-cont-img {
+        width: 100%;
+    }
+
+    .container main section#baner .baner-place .baner-cont-img .backgr-n, .backgr-n a img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .container main section#opis {
+        height: auto;
+    }
+
+    .container main section#opis .opis-place {
+        gap: 20px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont {
+        width: auto;
+        height: auto;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op {
+        height: auto;
+        width: 370px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+        width: 370px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .img-con {
+        display: none;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .i-c-1 {
+        display: flex;
+        width: 170px;
+        height: 170px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .text-to-opis {
+        width: 100%;
+        height: auto;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .text-to-opis p {
+        padding: 10px 0px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .text-navbar ul li {
+        padding: 0px 9px;
+        font-size: 13pt;
+    }
+
+    .container main section#umiejent {
+        height: auto;
+    }
+
+    .container main section#umiejent .skill-place {
+        gap: 30px;
+    }
+
+    .container main section#umiejent .skill-place .title-cont {
+        padding: 30px 10px 0px 10px;
+    }
+
+    .container main section#umiejent .skill-place .skills-main-cont {
+        grid-template-columns: auto;
+        grid-row-gap: 40px;
+    }
+
+    .container main section#projects {
+        height: auto;
+        padding: 50px 0px;
+    }
+
+    .container main section#projects .projects-place {
+        width: 90%;
+        height: auto;
+    }
+
+    .container main section#projects .projects-place .projec-cont {
+        grid-template-columns: auto;
+        width: auto;
+        padding: 0px 40px;
+        height: 600px;
+    }
+    
+    
+    .container main section#projects .projects-place .projec-cont .project-card {
+        margin: auto;
+        width: 260px;
+    }
+
+    .container main section#contact {
+        height: auto;
+    }
+
+    .container main section#contact .contact-place {
+        gap: 20px;
+        width: 95%;
+    }
+
+    .container main section#contact .contact-place .title-cont {
+        padding: 15px 10px;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p {
+        flex-direction: column;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .contact-text {
+        width: 95%;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .contact-text p {
+       font-size: 15pt;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .cont-content {
+        width: 95%;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .cont-content .contact-in {
+        width: 98%;
+    }
+
+    .container footer .navigation-row {
+        width: 70%;
+    }
+
+    .container footer .navigation-row .navigation-f ul li a {
+        font-size: 16pt;
+    }
+
+    .container footer .navigation-row .socials a i {
+        font-size: 23pt;
+    }
+
+    .container footer .copyright hr {
+        width: 99%;
+    }
+
+}
+
+@media (max-width: 377px) {
+
+    .container header {
+        padding: 0px;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .container header .logo-me a img {
+        display: none;
+    }
+
+    .container header nav ul li a {
+        padding: 0px 10px;
+        font-size: 12pt;
+    }
+
+    .container header nav ul li:first-child {
+        display: none;
+    }
+
+    .container main section#baner .baner-place {
+        width: 99%;
+    }
+
+    .container main section#baner .baner-place .baner-content {
+        justify-content: flex-start;
+    }
+
+    .container main section#baner .baner-place .baner-content h1 {
+        font-size: 26pt;
+    }
+
+    .container main section#baner .baner-place .baner-content h1 .sm-wd {
+        font-size: 26pt;
+    }
+
+    .container main section#baner .baner-place .baner-content h1 .cl-wd  {
+        font-size: 25pt;
+    }
+
+    .container main section#baner .baner-place .baner-content h2 {
+        width: 100%;
+        font-size: 21pt;
+    }
+
+    .container main section#baner .baner-place .baner-cont-img {
+        width: 100%;
+    }
+
+    .container main section#baner .baner-place .baner-cont-img .backgr-n, .backgr-n a img {
+        width: 270px;
+        height: 270px;
+    }
+
+    .container main section#opis {
+        height: auto;
+    }
+
+    .container main section#opis .opis-place {
+        gap: 20px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont {
+        width: auto;
+        height: auto;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op {
+        height: auto;
+        width: 320px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+        width: 320px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .img-con {
+        display: none;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .i-c-1 {
+        display: flex;
+        width: 170px;
+        height: 170px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .text-to-opis {
+        width: 100%;
+        height: auto;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .text-to-opis p {
+        padding: 10px 0px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .text-navbar ul li {
+        padding: 0px 5px;
+        font-size: 13pt;
+    }
+
+    .container main section#umiejent {
+        height: auto;
+    }
+
+    .container main section#umiejent .skill-place {
+        gap: 30px;
+    }
+
+    .container main section#umiejent .skill-place .title-cont {
+        padding: 30px 10px 0px 10px;
+    }
+
+    .container main section#umiejent .skill-place .skills-main-cont {
+        grid-template-columns: auto;
+        grid-row-gap: 40px;
+    }
+
+    .container main section#projects {
+        height: auto;
+        padding: 50px 0px;
+    }
+
+    .container main section#projects .projects-place {
+        width: 90%;
+        height: auto;
+    }
+
+    .container main section#projects .projects-place .projec-cont {
+        grid-template-columns: auto;
+        width: auto;
+        padding: 0px 40px;
+        height: 600px;
+    }
+    
+    
+    .container main section#projects .projects-place .projec-cont .project-card {
+        margin: auto;
+        width: 240px;
+    }
+
+    .container main section#contact {
+        height: auto;
+    }
+
+    .container main section#contact .contact-place {
+        gap: 20px;
+        width: 99%;
+    }
+
+    .container main section#contact .contact-place .title-cont {
+        padding: 15px 10px;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p {
+        flex-direction: column;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .contact-text {
+        width: 99%;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .contact-text p {
+       font-size: 14pt;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .cont-content {
+        width: 99%;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .cont-content .contact-in {
+        width: 98%;
+    }
+
+    .container footer .navigation-row {
+        width: 100%;
+    }
+
+    .container footer .navigation-row .navigation-f ul li a {
+        font-size: 16pt;
+    }
+
+    .container footer .navigation-row .socials a i {
+        font-size: 23pt;
+    }
+
+    .container footer .copyright hr {
+        width: 99%;
+    }
+
+}
+
+@media (max-width: 377px) {
+
+    .container header {
+        padding: 0px;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .container header .logo-me a img {
+        display: none;
+    }
+
+    .container header nav ul li a {
+        padding: 0px 6px;
+        font-size: 12pt;
+    }
+
+    .container header nav ul li:first-child {
+        display: none;
+    }
+
+    .container main section#baner .baner-place {
+        width: 99%;
+    }
+
+    .container main section#baner .baner-place .baner-content {
+        justify-content: flex-start;
+    }
+
+    .container main section#baner .baner-place .baner-content h1 {
+        font-size: 26pt;
+    }
+
+    .container main section#baner .baner-place .baner-content h1 .sm-wd {
+        font-size: 26pt;
+    }
+
+    .container main section#baner .baner-place .baner-content h1 .cl-wd  {
+        font-size: 25pt;
+    }
+
+    .container main section#baner .baner-place .baner-content h2 {
+        width: 100%;
+        font-size: 21pt;
+    }
+
+    .container main section#baner .baner-place .baner-cont-img {
+        width: 100%;
+    }
+
+    .container main section#baner .baner-place .baner-cont-img .backgr-n, .backgr-n a img {
+        width: 230px;
+        height: 230px;
+    }
+
+    .container main section#opis {
+        height: auto;
+    }
+
+    .container main section#opis .opis-place {
+        gap: 20px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont {
+        width: auto;
+        height: auto;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op {
+        height: auto;
+        width: 260px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+        width: 260px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .img-con {
+        display: none;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .i-c-1 {
+        display: flex;
+        width: 170px;
+        height: 170px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .text-to-opis {
+        width: 100%;
+        height: auto;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .main-text-op .opis-main-box-grid .opis-box .text-to-opis p {
+        padding: 10px 0px;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .text-navbar ul li {
+        padding: 0px 1px;
+        font-size: 11pt;
+    }
+
+    .container main section#opis .opis-place .main-opis-cont .text-navbar ul #opis-2, #opis-4 {
+        background-color: rgba(83, 0, 0, 0.6);
+    }
+
+    .container main section#umiejent {
+        height: auto;
+    }
+
+    .container main section#umiejent .skill-place {
+        gap: 30px;
+    }
+
+    .container main section#umiejent .skill-place .title-cont {
+        padding: 30px 10px 0px 10px;
+    }
+
+    .container main section#umiejent .skill-place .skills-main-cont {
+        grid-template-columns: auto;
+        grid-row-gap: 40px;
+    }
+
+    .container main section#projects {
+        height: auto;
+        padding: 50px 0px;
+    }
+
+    .container main section#projects .projects-place {
+        width: 90%;
+        height: auto;
+    }
+
+    .container main section#projects .projects-place .projec-cont {
+        grid-template-columns: auto;
+        width: auto;
+        padding: 0px 10px;
+        height: 600px;
+    }
+    
+    
+    .container main section#projects .projects-place .projec-cont .project-card {
+        margin: auto;
+        width: 220px;
+    }
+
+    .container main section#contact {
+        height: auto;
+    }
+
+    .container main section#contact .contact-place {
+        gap: 20px;
+        width: 99%;
+    }
+
+    .container main section#contact .contact-place .title-cont {
+        padding: 15px 10px;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p {
+        flex-direction: column;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .contact-text {
+        width: 97%;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .contact-text p {
+       font-size: 14pt;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .cont-content {
+        width: 97%;
+    }
+
+    .container main section#contact .contact-place .contact-main-op-p .cont-content .contact-in {
+        width: 97%;
+    }
+
+    .container footer .navigation-row {
+        width: 100%;
+    }
+
+    .container footer .navigation-row .navigation-f ul li a {
+        font-size: 16pt;
+    }
+
+    .container footer .navigation-row .socials a i {
+        font-size: 23pt;
+    }
+
+    .container footer .copyright hr {
+        width: 99%;
+    }
+
+}
